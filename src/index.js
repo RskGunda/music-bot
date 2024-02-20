@@ -1,4 +1,5 @@
 const MusicBot = require("./structures/MusicClient");
+const keep_alive = require('./keep_alive.js')
 const Topgg = require("@top-gg/sdk")
 const client = new MusicBot();
 client.topgg = new Topgg.Api("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk0NTAwMzkzNzU0NTcyODAyMSIsImJvdCI6dHJ1ZSwiaWF0IjoxNjQ4Mzg2MTA4fQ.Yfbrnwfy1SwNIFyZjt5JtOzFiDEFRbkVxyr62PM3VEs")
